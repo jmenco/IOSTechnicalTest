@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TableViewExample/TableViewExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableViewExampleCore/TableViewExampleCore.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableViewExampleData/TableViewExampleData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

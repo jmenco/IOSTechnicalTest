@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+workspace 'TableViewExample.xcworkspace'
+use_frameworks!
+
+def rxPods
+  pod 'RxSwift'
+  pod 'RxCocoa'
+end
+
+rxPods
+
+target 'TableViewExample' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  # Pods for TableViewExample
+  project 'TableViewExample/TableViewExample.xcproject' 
+  pod 'Alamofire'
+end
+
+target 'TableViewExampleData' do
+  project 'TableViewExampleData/TableViewExampleData.xcproject'
+  pod 'Alamofire'
+end 
+
+target 'TableViewExampleCore' do 
+  project 'TableViewExampleCore/TableViewExampleCore.xcproject'
+end	
